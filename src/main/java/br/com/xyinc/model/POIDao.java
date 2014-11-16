@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import br.com.xyinc.domain.POI;
 
 @Repository
-public class POIDao {
+public class POIDao implements IPOIDao {
 
 	@Autowired
 	private MongoDBConnectionFactory connectionFactory;

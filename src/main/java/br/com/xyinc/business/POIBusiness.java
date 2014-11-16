@@ -6,13 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import br.com.xyinc.domain.POI;
-import br.com.xyinc.model.POIDao;
+import br.com.xyinc.model.IPOIDao;
 
 @Component
-public class POIBusiness {
+public class POIBusiness implements IPOIBusiness {
 
 	@Autowired
-	private POIDao poiDao;
+	private IPOIDao poiDao;
 	
 	public List<POI> list() {
 		return poiDao.list();

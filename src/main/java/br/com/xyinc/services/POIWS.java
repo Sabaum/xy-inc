@@ -14,7 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
-import br.com.xyinc.business.POIBusiness;
+import br.com.xyinc.business.IPOIBusiness;
 import br.com.xyinc.domain.POI;
 import br.com.xyinc.exceptions.InternalServerException;
 
@@ -26,7 +26,7 @@ public class POIWS {
 	private static final String NEAREST_ERROR_MSG = "Devem ser informados a posição x, a posição y e a distância máxima";
 
 	@Autowired
-	private POIBusiness poiBusiness;
+	private IPOIBusiness poiBusiness;
 
 	/**
 	 * Lists all the Points of Interest (POI).
