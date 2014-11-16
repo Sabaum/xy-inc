@@ -12,7 +12,9 @@ O banco é iniciado automaticamente. Não precisa de script de inicialização.
 ###Execução
 Para executar a aplicação, siga os passos a seguir:
 
-1 - Và até o diretório raíz da aplicação e digite "mvn clean install".2 - Suba o seu servidor de aplicação e faça o deploy do pacote gerado na pasta target.
+1 - Và até o diretório raíz da aplicação e digite "mvn clean install".
+
+2 - Suba o seu servidor de aplicação e faça o deploy do pacote gerado na pasta target.
 
 3 - Assim que o deploy for finalizado, o sistema já pode ser utilizado.
 
@@ -23,3 +25,5 @@ Para executar a aplicação, siga os passos a seguir:
 - Busca de POI's por proximidade (para x=20, y=10 e dMax=10): GET [http://localhost:8080/xyinc/poi/nearest?x=20&y=10&dMax=10](http://localhost:8080/xyinc/poi/nearest?x=20&y=10&dMax=10)
 - Popular a base com os dados padrão: POST [http://localhost:8080/xyinc/poi/populate](http://localhost:8080/xyinc/poi/populate)
 - Remover todos os POIs cadastrados: DELETE [http://localhost:8080/xyinc/poi](http://localhost:8080/xyinc/poi)
+
+######Observação: Os 2 últimos serviços são serviços extras, apenas para facilitar o manuseio do sistema.
