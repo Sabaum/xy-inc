@@ -47,7 +47,7 @@ public class POIWS {
 	@Path("/")
 	@POST
 	public void add(@QueryParam("x") Integer xPos,
-			@QueryParam("x") Integer yPos, @QueryParam("name") String name) {
+			@QueryParam("y") Integer yPos, @QueryParam("name") String name) {
 		if (xPos == null || yPos == null || StringUtils.isEmpty(name)) {
 			throw new InternalServerException(ADD_ERROR_MSG);
 		}
