@@ -27,10 +27,6 @@ public class POIDao implements IPOIDao {
 				.asList();
 	}
 
-	private Datastore getDs() {
-		return connectionFactory.getDatastore();
-	}
-
 	public List<POI> list() {
 		return getDs()
 				.createQuery(POI.class).asList();
@@ -39,6 +35,10 @@ public class POIDao implements IPOIDao {
 	public void deleteAll() {
 		Query<POI> queryAll = getDs().createQuery(POI.class);
 		getDs().delete(queryAll);
+	}
+
+	private Datastore getDs() {
+		return connectionFactory.getDatastore();
 	}
 
 }

@@ -9,7 +9,6 @@ import org.mongodb.morphia.annotations.Indexed;
 import org.mongodb.morphia.utils.IndexDirection;
 
 @Entity(value="poi", noClassnameStored=true)
-//@Indexes({@Index(value="pos", name="pos_2d")})
 public class POI {
 
 	@Id
