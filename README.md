@@ -6,7 +6,7 @@ O sistema foi testado em Linux e Windows, utilizando o servidor Tomcat7, Java, e
 
 Foi utilizada a versão 7 do Java, e o MongoDB 2.6.5 como base de dados.
 Para edição das propriedades do MongoDB, editar o arquivo mongodb.properties em src/main/resources.
-O banco é iniciado automaticamente. Não precisa de script de inicialização.
+A base de dados é criada automaticamente. Não precisa de script de inicialização.
 É preciso que a variável de ambiente $JAVA_HOME esteja apontando para uma instalação de Java 7.
 
 ###Execução
