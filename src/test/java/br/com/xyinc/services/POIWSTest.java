@@ -6,10 +6,10 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 
 import br.com.xyinc.business.POIBusiness;
-import br.com.xyinc.business.utils.TestInfra;
 import br.com.xyinc.exceptions.InternalServerException;
+import br.com.xyinc.utils.JunitInfra;
 
-public class POIWSTest extends TestInfra {
+public class POIWSTest extends JunitInfra {
 
 	@Mock
 	private POIBusiness business;

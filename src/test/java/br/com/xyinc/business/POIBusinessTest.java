@@ -5,11 +5,11 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 
-import br.com.xyinc.business.utils.TestInfra;
 import br.com.xyinc.domain.POI;
 import br.com.xyinc.model.POIDao;
+import br.com.xyinc.utils.JunitInfra;
 
-public class POIBusinessTest extends TestInfra {
+public class POIBusinessTest extends JunitInfra {
 
 	@Mock
 	private POIDao poiDao;
