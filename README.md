@@ -26,4 +26,4 @@ Para executar a aplicação, siga os passos a seguir:
 - Popular a base com os dados padrão: POST [http://localhost:8080/xyinc/poi/populate](http://localhost:8080/xyinc/poi/populate)
 - Remover todos os POIs cadastrados: DELETE [http://localhost:8080/xyinc/poi](http://localhost:8080/xyinc/poi)
 
-######Observação: Os 2 últimos serviços são serviços extras, apenas para facilitar o manuseio do sistema.
+######Observação: [Instruções de instalação do MongoDB](http://docs.mongodb.org/manual/installation/)
